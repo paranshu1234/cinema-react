@@ -1,0 +1,34 @@
+.film-icn {
+    color: var(--black);
+}
+
+.heart-icn {
+    color: var(--black);
+}
+
+
+.user-icn {
+    color: var(--black);
+}
+
+/* .nav__link {
+    background-color: black;
+} */
+
+.nav__link__active > .film-icn {
+    color: rgb(20, 209, 223);
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+.nav__link__active > .heart-icn {
+    color: rgb(223, 20, 20);
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+.nav__link__active > .user-icn {
+    color: rgb(59, 150, 64);
+    transform: scale(1.2);
+    transition: all 0.2s;
+}

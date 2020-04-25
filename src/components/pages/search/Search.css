@@ -1,0 +1,21 @@
+.search-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.search-heading-wrapper {
+    padding: 30px;
+    width: 80%;
+
+}
+
+.search-heading-wrapper h1{
+    font-size: 18px;
+    color:  rgb(114, 113, 113)
+}
+.search-heading-wrapper span{
+    font-size: 18px;
+    color:  rgb(31, 31, 31)
+}

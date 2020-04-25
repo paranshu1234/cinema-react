@@ -1,0 +1,33 @@
+/* Link styles */
+.link-styles {
+    text-decoration: none;
+  }
+
+.gallery-img-itm {
+    height: 247px;
+    /* min-width: 180px; */
+    margin: 0 14px 15px 0;
+    border-radius: 20px;
+    box-shadow:  -2px 25px 35px -15px rgba(1, 1, 1, 0.6);
+
+  }
+
+.card-wrapper h2 {
+    color: var(--black);
+}
+
+.card-wrapper {
+  position: relative;
+}
+
+.rating-wrapper {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  border-radius:  20px 0 20px 0;
+  background-color: rgba(255, 245, 238 , 0.1);
+  color: rgb(253, 253, 253);
+  font-size: 12px;
+  font-weight: 900;
+  backdrop-filter: blur(4px);
+}

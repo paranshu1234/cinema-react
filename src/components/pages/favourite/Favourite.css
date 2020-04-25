@@ -1,0 +1,13 @@
+.fav-view-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    padding: 30px;
+}
+
+.fav-header {
+    margin-bottom: 20px;
+}

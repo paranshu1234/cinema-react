@@ -1,0 +1,61 @@
+  
+  .list-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    margin-bottom: 35px;
+  }
+  
+  .list-card-img {
+    min-width: 90px;
+    height: 100%;
+    background: linear-gradient(to right top, #f0c27b, #4b1248);
+    margin: 0 14px 15px 0;
+    border-radius: 15px;
+    box-shadow: 0px 20px 35px -15px rgba(1, 1, 1, 0.6);
+  }
+
+    
+  .place-card {
+    min-width: 90px;
+    height: 100%;
+    background: linear-gradient(to right top, #f0c27b, #4b1248);
+    margin: 0 14px 15px 0;
+    border-radius: 15px;
+    box-shadow: 0px 20px 35px -15px rgba(1, 1, 1, 0.6);
+  }
+  
+  .home-list-img {
+    min-width: 90px;
+    height: 100%;
+    margin: 0 14px 15px 0;
+    border-radius: 15px;
+    box-shadow: 0px 20px 35px -15px rgba(1, 1, 1, 0.6);
+  }
+  
+  
+  .list-card-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    padding: 4px;
+  }
+
+  .list-card-rating-wrapper {
+      font-size: 15px;
+      color: var(--grey)
+  }
+  
+  .list-card-title {
+    color: var(--black);
+  }
+  
+  .list-card-genre {
+    color: var(--grey);
+  }
+  
+  .list-card-duration {
+    color: var(--grey);
+  }
+  

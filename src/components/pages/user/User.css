@@ -1,0 +1,46 @@
+.tmdb_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.tmdb_wrapper img {
+    height: 80px;
+    box-shadow: none;
+}
+
+.login-wrapper {
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    box-shadow: 0  6px 20px -4px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    padding: 0 30px;
+    max-width: 50vh;
+}
+
+.user-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-fields {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid var(--grey);
+    width: 100%;
+    outline: none;
+    transition: all 0.4s;
+}
+
+.form-fields:focus{
+    border: 1px solid #00ffbf;
+} 

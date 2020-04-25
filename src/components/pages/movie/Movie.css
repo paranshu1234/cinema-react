@@ -1,0 +1,191 @@
+.page-header {
+  height: 327px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://a.ltrbxd.com/resized/sm/upload/fe/g8/y5/ai/joker-2019-1200-1200-675-675-crop-000000.jpg?k=afbb23affd");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.title-play-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-wrapper {
+  margin-bottom: 20px;
+}
+
+.title-wrapper h1 {
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: -0.67px;
+  max-width: 200px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+
+.title-wrapper h2{
+  color: #ffffff;
+}
+
+.star {
+  color: yellow;
+  font-size: 12px;
+}
+
+.play {
+  color: rgba(83, 6, 252);
+}
+
+.play-btn {
+  box-shadow: 0 5px 14px 0 rgba(83, 6, 252, 0.17);
+  background-color: #ffffff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+  right: 30px;
+}
+
+.content-wrapper {
+  padding: 37px 0 0 30px;
+}
+
+.back {
+  color: white;
+  font-size: 15px;
+}
+
+/* Detail wrapper */
+
+.details-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.detail::after {
+  content: "";
+  background-color: #e9e9e9;
+  height: 33px;
+  width: 1px;
+  position: absolute;
+  right: -28px;
+}
+
+.last-element::after {
+  display: none;
+}
+
+.detail-title {
+  font-size: 11px;
+  color: var(--grey);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.detail-content {
+  font-size: 15px;
+}
+
+.detail-content.genre{
+  margin-right: 4px;
+}
+
+.genre-content-wrapper{
+  width: 100%;
+  overflow-x: scroll;
+}
+
+/* Gallery */
+.gallery {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  overflow-x: scroll;
+  padding-right: 20px;
+  margin: 10px 0 0 0;
+  -webkit-overflow-scrolling: touch;
+}
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  height: 107px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 35px -10px rgba(1, 1, 1, 0.25);
+}
+/* 
+  .img-card {
+    height: 107px;
+    min-width: 200px;
+    margin-right: 10px;
+    border-radius: 15px;
+  
+    background-color: #ffffff;
+    opacity: 0.7;
+    box-shadow: 0px 20px 35px -10px rgba(1, 1, 1, 0.25);
+  } */
+
+/* info wrapper */
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+p.detail-content {
+  line-height: 21px;
+  width: 315px;
+  height: 200px;
+  margin-bottom: 35px;
+}
+
+p.detail-content {
+  line-height: 21px;
+  width: 315px;
+  height: 200px;
+  margin-bottom: 35px;
+}
+
+
+
+/* Page Icons */
+
+.back-icn {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.play-icn {
+  color: var(--play);
+}
+
+.star-icn {
+  color: #e7d210;
+}
+

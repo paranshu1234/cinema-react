@@ -1,0 +1,147 @@
+.App-header {
+  background-color: #ffffff;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--black);
+  min-width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: relative;
+}
+
+.home-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+}
+
+/* Gallery */
+.tv-header {
+  padding: 30px;
+}
+
+.home-gallery-wrapper {
+  display: flex;
+  background-color: #ffffff;
+  overflow-x: scroll;
+  min-height: 300px;
+  padding: 0 30px;
+  text-align: left;
+}
+
+.home-gallery-wrapper::-webkit-scrollbar  {
+  display: none;
+}
+
+.home-img-card {
+  min-width: 180px;
+  height: 227px;
+  background: linear-gradient(to right top, #f0c27b, #4b1248);
+  margin: 0 14px 15px 0;
+  border-radius: 20px;
+  box-shadow: 0px 20px 35px -15px rgba(1, 1, 1, 0.6);
+}
+
+
+.home-gallery-itm {
+  color: var(--black);
+  margin-right: 6px;
+}
+
+.home-itm-text-wrapper {
+  width: 140px;
+  font-size: 14px;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0 -2px 25px -10px rgba(1, 1, 1, 0.6);
+}
+
+
+/* Movie List */
+.home-movie-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 350px;
+}
+
+
+/* Searchbar */
+
+.searchbar-wrapper {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4px;
+  /* box-shadow: 0px 0px 25px -12px rgba(1, 1, 1, 0.8); */
+}
+
+.btn {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 20px;
+}
+
+
+/* List  */
+.list-header {
+  margin-bottom: 40px;
+}
+
+
+/* New Searchwrapper */
+
+.testDiv{
+  width: 240px;
+  height: 60px;
+  background: rgb(250, 250, 250);
+  border-radius: 25px;
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  box-shadow: 0 5px 35px -4px rgba(0, 0, 0, 0.8);
+  transform-origin: 100% 50%;
+  z-index: 10;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+
+ }
+
+.search-input:focus {
+  border: none;
+  background: none;
+}
+
+.btn.search-btn {
+  font-size: 15px;
+  color: var(--black);
+}
+
+.search-icn {
+  color: var(--black);
+}
